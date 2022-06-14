@@ -23,7 +23,13 @@ STEP 7 : find the pairwise correlation of all columns in the dataframe(.corr()).
 
 STEP 8 : Save the final data set into the file.
 
-CODE ''' Program Developed by:DHANASHREE M Register no:212221230018 ''' import pandas as pd import numpy as np import seaborn as sns df=pd.read_csv("supermarket.csv") df
+CODE :
+''' Program Developed by:DHANASHREE M 
+Register no:212221230018 '''
+
+import pandas as pd 
+import numpy as np 
+import seaborn as sns df=pd.read_csv("supermarket.csv") df
 
 #cleaning dataset #checking for null values df.isnull().sum()
 
